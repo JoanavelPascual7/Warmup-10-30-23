@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li-container {
+    text-align: center;
+}
+
+li {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: min-content;
+    display: inline-block; /* Add this property */
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
